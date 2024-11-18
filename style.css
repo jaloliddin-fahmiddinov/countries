@@ -1,0 +1,88 @@
+/* uneversal styles */
+
+body {
+    margin: 0;
+    background-color: #2B3844;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header styles */
+
+header {
+    background-color: #202C36;
+    padding: 20px 0;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* countries styles */
+
+.countries form {
+    margin: 40px 0;
+}
+
+.countries input {
+    background-color: white border: none;
+    padding: 15px 10px;
+    width: 400px;
+    border-radius: 5px;
+
+}
+
+
+.countries .flags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.countries .country {
+    width: 23%;
+    background-color: #2B3844;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+}
+
+.countries img {
+    width: 100%;
+
+}
+
+
+.ota {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+
+}
+
+.countries h3 {
+    color: white;
+    text-align: center;
+    background-color: #202C36;
+    padding: 50px;
+}
